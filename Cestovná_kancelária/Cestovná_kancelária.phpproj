@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Cestovná_kancelária</Name>
+    <ProjectGuid>de5e751b-4e6e-4e02-918f-b2d52f0a3f16</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>zobrazenie</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Cestovná_kancelária</AssemblyName>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>7.0</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="pomocky\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cesta.php" />
+    <Compile Include="destinacie.php" />
+    <Compile Include="index.php" />
+    <Compile Include="index1.php" />
+    <Compile Include="kontakt.php" />
+    <Compile Include="mapa.php" />
+    <Compile Include="moje1.php" />
+    <Compile Include="nas.php" />
+    <Compile Include="ponuky.php" />
+    <Compile Include="prechod.php" />
+    <Compile Include="priprava.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pomocky\autobus.jpg" />
+    <Content Include="pomocky\bosna.jpg" />
+    <Content Include="pomocky\cesko.jpg" />
+    <Content Include="pomocky\foto.JPG" />
+    <Content Include="pomocky\foto2.jpg" />
+    <Content Include="pomocky\foto3.JPG" />
+    <Content Include="pomocky\foto5.JPG" />
+    <Content Include="pomocky\foto6.JPG" />
+    <Content Include="pomocky\ja.jpg" />
+    <Content Include="pomocky\mesta.jpg" />
+    <Content Include="pomocky\nemecko.jpg" />
+    <Content Include="pomocky\norsko.jpg" />
+    <Content Include="pomocky\pariz.jpg" />
+    <Content Include="pomocky\pozadie.jpg" />
+    <Content Include="pomocky\prva.jpg" />
+    <Content Include="pomocky\spanielsko.jpg" />
+    <Content Include="styl.css" />
+    <Content Include="styly.css" />
+  </ItemGroup>
+</Project>

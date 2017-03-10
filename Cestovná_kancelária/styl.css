@@ -1,0 +1,83 @@
+p  		
+{
+font-size : 12
+font-family : arial;
+color : black;
+}
+
+li  		
+{
+font-size : 12;
+       	 	 
+font-family : arial;
+       	 	 
+color : black;}
+
+h1		
+{font-size : 20;
+       	 	 
+font-family : arial;
+color : black;
+text-align : center;
+}
+
+h2  		
+{
+font-size : 18;
+font-family : arial;
+ color : black;
+text-align : center;}
+
+h3  		
+{
+font-size : 16;
+font-family : arial;
+color : red;
+text-align : center;
+}
+
+h4  		
+{
+font-size : 14;
+font-family : arial;
+color : black;
+text-align : center;
+}
+
+h5  		
+{
+font-size : 13;
+font-family : arial;
+color : black;
+text-align : left;
+}
+
+h6  		
+{
+font-size : 12;
+font-family : arial;
+color : black;
+text-align : center;
+}
+
+a         	
+{
+text-decoration: none;
+}
+a:link    	
+{
+color: black;
+}
+a:visited 	
+{
+color: black;
+}
+a:active  	
+{
+color: black;
+}
+a:hover   	
+{
+color: silver; 
+text-decoration: underline;
+}

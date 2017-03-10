@@ -1,0 +1,83 @@
+body
+{ 
+
+background-image:url(mesta.jpg);
+  }
+ #obal 
+ {
+background-color:006666;
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+
+height:auto;
+}
+#hlava
+{ 
+width:1000px;
+height:300px;
+background-color:blue;
+background-image:url(pomocky\foto2.JPG);
+}
+#lavy
+{ 
+width:300px;
+height:auto;
+background-color:33CCCC;
+float:left;
+border:solid 5px black;
+}
+#lavy a
+{
+color:black;
+font-size:25px;
+text-decoration:none;
+}
+#pravy
+{
+width:690px;
+height:auto;
+background-color:white;
+float:right;
+}
+#peta
+{ 
+width:1000px;
+height:100px;
+background-color:006666;
+clear:both;
+font-size:20px;
+text-align:center;
+vertical-align:middle;
+line-height:100px;
+}
+#navig
+{ 
+width:1000px;
+height:70px;
+background-color:006666;
+border-bottom:solid 5px black;
+}
+#menu
+{ 
+width:150px;
+height:50px;
+background-color:#989898 ;
+margin-left:40px;
+margin-top:auto;
+margin-bottom:20px;
+font-size:30px;
+text-align:center;
+font-family: Andalus; 
+}
+#table 
+{
+border-width:1px; 
+
+border-style: solid;
+font-family:Palatino Linotype;
+font-size:16px;
+border-spacing:0;
+border-collapse:collapse;
+text-align: center;
+}
