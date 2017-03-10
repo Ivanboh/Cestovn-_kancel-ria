@@ -16,12 +16,12 @@
 <tr height="100">
 
 <td width="150" align="center">
-<img src="ja.jpg" width="150" height="150">
+<img src="pomocky/ja.jpg" width="150" height="150">
 <hr size="1" color="black" align="center">
 </td>
 
 <td width="450" align="left">
-<img src="logo.jpg" width="450" height="150">
+<img src="pomocky/logo.jpg" width="450" height="150">
 <hr size="1" color="black" align="center">
 </td>
 </tr>
